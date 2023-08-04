@@ -1,0 +1,521 @@
+{
+    "websites": [
+        {
+            "id": "myportfolio",
+            "name": "My Portfolio",
+            "nameES": "Mi Portafolio ",
+            "projectType": "real websites",
+            "description": "This is my new and second version of my portfolio Website. Though it looks almost the same as before, I challenge myself to learn NextJs by implement it in this site. It was a very difficult task because I had to rewrite a very significant amount of code by migrating from React and React Router to NextJs. <br /> As always this site contains all my art and web development works and also a blog that it is under construction because I need some backend skills to finish that page. This site will be the center of my activity on the internet and in that sense I'll continously update the site with new stuff as I learn to implement new technologies.",
+            "descriptionES": "Este es mi nuevo portafolio, si bien se ve casi igual al anterior posee diferencias internas bastante grandes. Me desafié a aprender NextJS implementando dicha tecnología a este sitio. Fué una tarea bastante dificil porque tuve que reescribir una cantidad significativa de código al migrar el sitio desde React y React Router a nextjs, por eso decidí contarlo como un proyecto nuevo. <br/> Como siempre, este sitio contiene mi información como desarrollador y como artista. Seguiré actualizandolo con cosas nuevas mientras aprendo a implementar nuevas tecnologías.",
+            "opinion": "Thanks for being here!",
+            "opinionES": "Gracias por tu visita!",
+            "images": [
+                "/imagecarousel/portfoliov21.jpg",
+                "/imagecarousel/portfoliov22.jpg"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/portfoliov21mobile.jpg",
+                "/imagecarousel/portfoliov22mobile.jpg"
+            ],
+            "illustrations": "/illustrations/caracoltecla.png",
+            "github": "https://github.com/Caracolaracol/my-portfolio",
+            "link": "https://caracolaracol-portfolio.vercel.app/",
+            "technologies": [
+                {
+                    "idtech": "nextjs",
+                    "name": "NextJS",
+                    "img": "/icons/nextjs.svg",
+                    "description": "NextJS: React framework for full-stack apps"
+                },
+                {
+                    "idtech": "typescript",
+                    "name": "Typescript",
+                    "img": "/icons/typescript.svg",
+                    "description": "Typescript: Programming Language"
+                },
+                {
+                    "idtech": "tailwind",
+                    "name": "Tailwind CSS",
+                    "img": "/icons/tailwind.svg",
+                    "description": "Tailwind is my favorite CSS Framework, It is just awesome"
+                },
+                {
+                    "idtech": "swiper",
+                    "name": "Swiper JS",
+                    "img": "/icons/swiper.svg",
+                    "description": "SwiperJS: I used this tool for the 'carousel' like sliders that are in each project page."
+                },
+                {
+                    "idtech": "redux",
+                    "name": "Redux",
+                    "img": "/icons/redux.svg",
+                    "description": "Redux: A state container, I know It is not necessary for a site like this, but I wanted to use it for learning purproses"
+                }
+            ]
+        },
+        {
+            "id": "languagespin",
+            "name": "Language Spin",
+            "nameES": "Language Spin",
+            "projectType": "real websites",
+            "description": "This is a language course platform, I worked at this project as a team made up of the best students of the latest bootcamps of web development and web design at 'Coderhouse' an e-learning platform based in Argentina, so it was a excelent job experience and the result was this site made for a language course institute. They teach English, Spanish, Italian and Portuguese",
+            "descriptionES": "Language Spin es una plataforma de cursos de idiomas, trabajé en este proyecto en un equipo conformado por los mejores estudiantes de los últimos bootcamps de desarrollo web y diseño de Coderhouse, una plataforma de e-learning de Argentina. Fué una excelente experiencia laboral cuyo resultado fue este sitio hecho para este instituto de idiomas donde enseñan Inglés, Español, Italiano y Portugués.",
+            "opinion": "Grazie mille!",
+            "opinionES": "Grazie mille!",
+            "images": [
+                "/imagecarousel/ls1.png",
+                "/imagecarousel/ls2.png"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/lsmob1.png",
+                "/imagecarousel/lsmob2.png"
+            ],
+            "github": "https://github.com/Caracolaracol/languageSpin-project",
+            "link": "https://language-spin.vercel.app/",
+            "technologies": [
+                {
+                    "idtech": "react",
+                    "name": "React JS",
+                    "img": "/icons/react.svg",
+                    "description": "One library to rule them all"
+                },
+                {
+                    "idtech": "reactrouter",
+                    "name": "React Router",
+                    "img": "/icons/reactrouter.svg",
+                    "description": "Routing tool for React, I used it with the new updates (since 6.4v) and its awesome"
+                },
+                {
+                    "idtech": "tailwind",
+                    "name": "Tailwind CSS",
+                    "img": "/icons/tailwind.svg",
+                    "description": "My favorite CSS Framework, It is just awesome"
+                }
+            ]
+        },
+        {
+            "id": "ironplantcl",
+            "name": "Ironplant.cl",
+            "nameES": "Ironplant.cl",
+            "projectType": "fictional websites",
+            "description": "This is a Remake of the <a class='text-naranjalink hover:text-naranjad dark:text-naranjal' href='https://www.ironplant.cl/' target='_blank' >Ironplant website</a>, a Vegan brand selling food supplements. I did this site for the final project of the React Js bootcamp at Coderhouse, where I learned a lot of my Web Development Skills. In this project you can actually simulate a purchase, it has itemlists, filtered items, item details, cart and a checkout form.",
+            "descriptionES": "Remake the la página <a class='text-naranjalink hover:text-naranjad dark:text-naranjal' href='https://www.ironplant.cl/' target='_blank' >Ironplant.cl</a>, una marca vegana de suplementos alimenticios. Hice este sitio para el proyecto final del bootcamp de React JS en Coderhouse, donde aprendí gran parte de mis habilidades como desarrollador. En este proyecto podrás simular una compra, con su lista de ítems, filtros de búsqueda, detalle de producto, carrito de compras y finalmente el formulario para el Checkout.",
+            "opinion": "Don't forget your B12!",
+            "opinionES": "Tómate la B12",
+            "images": [
+                "/imagecarousel/ironplant1.png",
+                "/imagecarousel/ironplant2.png"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/ironplantmobile1.jpg",
+                "/imagecarousel/ironplantmobile2.jpg"
+            ],
+            "illustrations": "/illustrations/rana2.png",
+            "github": "https://github.com/Caracolaracol/ReactJsFinal-coderhouse",
+            "link": "https://reactjsfinal-coderhouse.vercel.app/",
+            "technologies": [
+                {
+                    "idtech": "react",
+                    "name": "React JS",
+                    "img": "/icons/react.svg",
+                    "description": "ReactJs: One library to rule them all"
+                },
+                {
+                    "idtech": "mui",
+                    "name": "MateriaUI",
+                    "img": "/icons/mui.svg",
+                    "description": "MaterialUI: Some components made with mui. It's faster"
+                },
+                {
+                    "idtech": "firebase",
+                    "name": "Firebase",
+                    "img": "/icons/firebase.svg",
+                    "description": "Firebase: The database of products and customers are located here"
+                }
+            ]
+        },
+        {
+            "id": "obsidian",
+            "name": "Obsidian",
+            "nameES": "Obsidian",
+            "projectType": "fictional websites",
+            "description": "This is a clone of the <a class='text-naranjalink hover:text-naranjad dark:text-naranjal' href='https://obsidian.md/' target='_blank' >Obsidian website</a> made for improving my developing skills. Obsidian its like a note taking app but with some extra features, you can make it a knowledge base for your life, and with his capabilites obsidian its able to work like a second brain for the user. As a developer I find obsidian a really useful tool. I write down my notes, useful codes and basically everything I know I'll need in some future. <br />For this project I made the landing page of the site. I tried to make this page without seeing the original html because I thought that doing it this way would make it harder to clone. It's one of the first web projects that I did.",
+            "descriptionES": "Este es un clon del sitio web <a class='text-naranjalink hover:text-naranjad dark:text-naranjal' href='https://obsidian.md/' target='_blank' >Obsidian.md</a>, lo hice para mejorar mi técnica como desarrollador web. Obsidian es una app para escribir notas pero con algunas características extra, puedes convertirla en una base de conocimiento para tu estilo de vida y con sus capacidades Obsidian es capaz de convertirse en un segundo cerebro para el usuario. Como desarrollador encuentro a obsidian una herramienta muy util. Escribo mis notas, códigos útiles y básicamente todo lo que sepa y que sé que necesitaré en algún futuro. <br /> Traté de hacer esta página sin revisar el código original porque de ese modo sería más dificil de clonar.",
+            "opinion": "Obsidian its a software that I like very much, I really recommend you to try it!",
+            "opinionES": "Obsidian es un software que me gusta mucho, te recomiendo usarlo!",
+            "images": [
+                "/imagecarousel/obsidianimage1.png",
+                "/imagecarousel/obsidianimage2.png"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/obsidianmobile2.jpg",
+                "/imagecarousel/obsidianmobile1.png"
+            ],
+            "illustrations": "/illustrations/ranaobsidian.png",
+            "github": "https://github.com/Caracolaracol/ObsidianProject",
+            "technologies": [
+                {
+                    "idtech": "html",
+                    "name": "HTML5",
+                    "img": "/icons/html5.svg",
+                    "description": "HTML for the entire Site"
+                },
+                {
+                    "idtech": "css",
+                    "name": "CSS3",
+                    "img": "/icons/css3.svg",
+                    "description": "CSS for the styling"
+                },
+                {
+                    "idtech": "sass",
+                    "name": "SASS",
+                    "img": "/icons/sasscol.svg",
+                    "description": "SASS its a CSS extension for preprocessing the styles in a more eficient way"
+                }
+            ]
+        },
+        {
+            "id": "myfirstsite",
+            "name": "My first Site",
+            "nameES": "Mi primer sitio",
+            "projectType": "fictional websites",
+            "description": "The first site that I made. I'ts a site about myself as a photographer with a store of prints of macrophotography of insects and a blog.",
+            "descriptionES": "El primer sitio que hice. Es una tienda de fotografías con un catálogo para comprar prints de fotografía macro.",
+            "opinion": "Proud of it!",
+            "opinionES": "Nada como tu primer proyecto de página web.",
+            "images": [
+                "/imagecarousel/firstsite1.jpg",
+                "/imagecarousel/firstsite2.jpg"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/firstsitemobile1.jpg",
+                "/imagecarousel/firstsitemobile2.jpg"
+            ],
+            "github": "https://github.com/Caracolaracol/CaracolFirstSIte",
+            "link": "https://caracolaracol.github.io/CaracolFirstSIte/",
+            "technologies": [
+                {
+                    "idtech": "html",
+                    "name": "HTML5",
+                    "img": "/icons/html5.svg",
+                    "description": "HTML for the entire Site"
+                },
+                {
+                    "idtech": "css",
+                    "name": "CSS3",
+                    "img": "/icons/css3.svg",
+                    "description": "CSS for the styling"
+                },
+                {
+                    "idtech": "sass",
+                    "name": "SASS",
+                    "img": "/icons/sasscol.svg",
+                    "description": "CSS extension for preprocessing the styles in a more eficient way"
+                },
+                {
+                    "idtech": "javascript",
+                    "name": "Javascript",
+                    "img": "/icons/javascript.svg",
+                    "description": "Programming Language of choice"
+                }
+            ]
+        }
+    ],
+    "codingProjects": [
+        {
+            "id": "pokemoncenter",
+            "name": "Pokemon Center",
+            "nameES": "Centro pokemon",
+            "projectType": "coding projects",
+            "description": "This is a project that I did for the challenges of the Javascript Course at Coderhouse, It is a pokemon center simulator but privatized so it charges a certain amount of money to heal your pokemons. It is made with the pokeAPI, with that I got all the data of your pokemons, including the sprites.",
+            "descriptionES": "Hice este simulador para los desafíos del curso de Javascript en Coderhouse, es un simulador de centro pokemon pero privatizado, así que cobra una cierta cantidad de dinero para sanar a tus pokemon. Está hecho con la pokeAPI, donde obtengo toda la data de los pokemons, incluyendo los sprites.",
+            "opinion": "Using pokeAPI its a great way to learn to use APIs and fetch data from databases!",
+            "opinionES": " La pokeAPI es una excelente herramienta para aprender API, data fetch y código asíncrono con Javascript.",
+            "images": [
+                "/imagecarousel/centropokemon1.png",
+                "/imagecarousel/centropokemon2.png"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/centropokemonmobile1.png",
+                "/imagecarousel/centropokemonmobile2.png"
+            ],
+            "github": "https://github.com/Caracolaracol/jsFinal-coderhouse",
+            "link": "",
+            "technologies": [
+                {
+                    "idtech": "html",
+                    "name": "HTML5",
+                    "img": "/icons/html5.svg",
+                    "description": "HTML for the entire Site"
+                },
+                {
+                    "idtech": "css",
+                    "name": "CSS3",
+                    "img": "/icons/css3.svg",
+                    "description": "CSS for the styling"
+                },
+                {
+                    "idtech": "sass",
+                    "name": "SASS",
+                    "img": "/icons/sasscol.svg",
+                    "description": "CSS extension for preprocessing the styles in a more eficient way"
+                },
+                {
+                    "idtech": "javascript",
+                    "name": "Javascript",
+                    "img": "/icons/javascript.svg",
+                    "description": "Programming Language of choice"
+                }
+            ]
+        },
+        {
+            "id": "cypher",
+            "name": "Psillobora Cypher",
+            "nameES": "Psillobora Cypher",
+            "projectType": "coding projects",
+            "description": "Project made for the Oracle Challenge, Its a Cypher that transform text to Selva Korpi Code and viceversa. Selva Korpi its a relatively secret code that you can use to communicate with other people. It also has a Senit Polar Cypher which is another secret code that you can use alternatively",
+            "descriptionES": "Proyecto realizado para el Challenge del programa ONE de Oracle, se trata de un descifrador cuya particularidad es que transforma texto al código Selva Korpi y viceversa. Selva Korpi es un código relativamente secreto que puedes usar para comunicarte con otras personas. Tambíen tiene un transformador en Senit Polar que es otro código secreto que puedes usar de forma alternativa.",
+            "opinion": "nopol genni gapo yeu uv!",
+            "opinionES": "nopol genni gapo yeu uv!",
+            "images": [
+                "/imagecarousel/cypher1.jpg",
+                "/imagecarousel/cypher2.jpg"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/cyphermobile1.jpg",
+                "/imagecarousel/cyphermobile2.jpg"
+            ],
+            "github": "https://github.com/Caracolaracol/cipher-challenge-one",
+            "link": "https://caracolaracol.github.io/cipher-challenge-one/",
+            "technologies": [
+                {
+                    "idtech": "html",
+                    "name": "HTML5",
+                    "img": "/icons/html5.svg",
+                    "description": "HTML for the entire Site"
+                },
+                {
+                    "idtech": "css",
+                    "name": "CSS3",
+                    "img": "/icons/css3.svg",
+                    "description": "CSS for the styling"
+                },
+                {
+                    "idtech": "javascript",
+                    "name": "Javascript",
+                    "img": "/icons/javascript.svg",
+                    "description": "Programming Language of choice"
+                }
+            ]
+        }
+    ],
+    "apps": [
+        {
+            "id": "torchnd",
+            "name": "Torchnd",
+            "nameES": "Torchnd",
+            "projectType": "apps",
+            "description": "",
+            "descriptionES": "",
+            "opinion": "",
+            "opinionES": "",
+            "images": [
+                "/imagecarousel/portfoliov21.jpg",
+                "/imagecarousel/portfoliov22.jpg"
+            ],
+            "imagesmobile": [
+                "/imagecarousel/portfoliov21mobile.jpg",
+                "/imagecarousel/portfoliov22mobile.jpg"
+            ],
+            "illustrations": "/illustrations/caracoltecla.png",
+            "github": "https://github.com/Caracolaracol/my-portfolio",
+            "link": "https://caracolaracol-portfolio.vercel.app/",
+            "technologies": [
+                {
+                    "idtech": "expo",
+                    "name": "Expo",
+                    "img": "/icons/expo.svg",
+                    "description": "Expo: React Native Toolkit for creating apps"
+                },
+                {
+                    "idtech": "redux",
+                    "name": "Redux",
+                    "img": "/icons/redux.svg",
+                    "description": "State management"
+                },
+                {
+                    "idtech": "firebase",
+                    "name": "Firebase",
+                    "img": "/icons/firebase.svg",
+                    "description": "Auth & Realtime database system"
+                },
+                {
+                    "idtech": "sqlite",
+                    "name": "SQLite",
+                    "img": "/icons/sqlite.svg",
+                    "description": "Offline features"
+                }
+            ]
+        }
+    ],
+    "videos": [
+        {
+            "id": "bichos",
+            "name": "Bichos",
+            "projectType": "Videos",
+            "description": "This is a music video I made for the band Bichonauta, with bugs nature and destruction. The main idea behind was to make a videocollage made with book clippings and use the illustrations of old books about nature and entomology. This took me 2 years of uninterrupted research and editing of the illustrations. Maybe the main source of those illustrations was the <a class='text-naranjalink hover:text-naranjad dark:text-naranjal' href='https://obsidian.md/' target='_blank' >Biodiversity Heritage Library</a>. In adition all these illustrations were animated in After Effects.",
+            "descriptionES": "Video musical hecho para la banda Bichonauta, con bichos, naturaleza y destrucción. La idea principal fué hacer un videocollage hecho con ilustraciones mías y recortes de libros viejos sobre naturaleza y entomología. Me tomó 2 años de investigación y posterior edición de los recortes antes de comenzar con la animación. La mayoría de las plantas y bichos provienen de la <a class='text-naranjalink hover:text-naranjad dark:text-naranjal' href='https://obsidian.md/' target='_blank' >Biodiversity Heritage Library</a>. Luego animé los recortes con After Effects. ",
+            "opinion": "One of the hardest works i've done, really dificult to make this video.",
+            "opinionES": "Uno de los trabajos más difíciles que he realizado.",
+            "images": [
+                "/imagecarousel/obsidianimage1.png",
+                "/imagecarousel/obsidianimage2.png"
+            ],
+            "video": "kn46FRoGDuk",
+            "technologies": [
+                {
+                    "idtech": "photoshop",
+                    "name": "Adobe Photoshop",
+                    "img": "/icons/photoshop.svg",
+                    "description": "For Cutting and editing all the layers"
+                },
+                {
+                    "idtech": "aftereffects",
+                    "name": "Adobe After Effects",
+                    "img": "/icons/aftereffects.svg",
+                    "description": "'There is a lot of after effects inside your after effects'"
+                },
+                {
+                    "idtech": "finalcut",
+                    "name": "Final Cut",
+                    "img": "/icons/finalcut.png",
+                    "description": "The video editing"
+                },
+                {
+                    "idtech": "drawingtablet",
+                    "name": "Drawing Tablet",
+                    "img": "/icons/tablet.svg",
+                    "description": "I edited and paint some bugs with a graphic tablet"
+                },
+                {
+                    "idtech": "javascript",
+                    "name": "Javascript",
+                    "img": "/icons/javascript.svg",
+                    "description": "There is some Javascript expressions for the animations"
+                }
+            ]
+        },
+        {
+            "id": "cruzandorios",
+            "name": "Cruzando Ríos/Saltando Piedras",
+            "projectType": "Videos",
+            "description": "This is the first music video I made for the band Bichonauta, made with my friends through a journey to 'El Manzano' an incredible place full of nature. I did the video editing and some camera too. The little friend was handmade by another little friend",
+            "descriptionES": "Este es el primer video musical que hice para la banda Bichonauta, hecho con mis amixs durante un viaje al Manzano, un bello lugar lleno de naturaleza. Hice la edición y algo de cámara también. El amiguito fue hecho a mano por otro amiguito.",
+            "images": [
+                "/imagecarousel/obsidianimage1.png",
+                "/imagecarousel/obsidianimage2.png"
+            ],
+            "video": "5IuzqtMDwCk",
+            "technologies": [
+                {
+                    "idtech": "finalcut",
+                    "name": "Final Cut",
+                    "img": "/icons/finalcut.png",
+                    "description": "The video editing"
+                }
+            ]
+        },
+        {
+            "id": "lacenaestalista",
+            "name": "La cena está lista",
+            "projectType": "Videos",
+            "description": "Another Music Video I made for Bichonauta filmed in the mountains, where mysterious creatures dwell. This time I try some Stop Motion to generate another perception about these little gnomes. They did a great job as actors in this video, and the little friend too.",
+            "descriptionES": "Otro video musical hecho para Bichonauta, fué grabado en las montañas donde habitan misteriosas criaturas. Esta vez utilicé la tecnica de stop motion para generar una percepcion distinta en las escenas de los gnomos, hicieron un gran trabajo como actores",
+            "images": [
+                "/imagecarousel/obsidianimage1.png",
+                "/imagecarousel/obsidianimage2.png"
+            ],
+            "video": "xFmuDBHP8Uo",
+            "technologies": [
+                {
+                    "idtech": "finalcut",
+                    "name": "Final Cut",
+                    "img": "/icons/finalcut.png",
+                    "description": "The video editing"
+                },
+                {
+                    "idtech": "aftereffects",
+                    "name": "Adobe After Effects",
+                    "img": "/icons/aftereffects.svg",
+                    "description": "'There is a little bit of after effects inside your after effects'"
+                }
+            ]
+        },
+        {
+            "id": "quebradaradiocontrol",
+            "name": "Quebrada Radiocontrol",
+            "projectType": "Videos",
+            "description": "Quebrada Radiocontrol It's an experimental music group, this is one of the videos we made and it required a lot of work because we filmed at so many places and with so many techniques but the result was worth it.",
+            "descriptionES": "Quebrada Radiocontrol es una banda de música experimental. Este video requirió de mucho trabajo y experimentació, lo grabamos en muchos lugares y con muchas y diversas técnicas.",
+            "images": [
+                "/imagecarousel/obsidianimage1.png",
+                "/imagecarousel/obsidianimage2.png"
+            ],
+            "video": "ORB423zdJy8",
+            "technologies": [
+                {
+                    "idtech": "finalcut",
+                    "name": "Final Cut",
+                    "img": "/icons/finalcut.png",
+                    "description": "The video editing"
+                }
+            ]
+        },
+        {
+            "id": "asambleadejueces",
+            "name": "Asamblea de Jueces",
+            "projectType": "Videos",
+            "description": "Another video of Quebrada Radiocontrol, a very strange one, Just enjoy.",
+            "descriptionES": "Otro video de Quebrada Radiocontrol, uno muy extraño. ",
+            "images": [
+                "/imagecarousel/obsidianimage1.png",
+                "/imagecarousel/obsidianimage2.png"
+            ],
+            "video": "wxx3oMa7NVk",
+            "technologies": [
+                {
+                    "idtech": "finalcut",
+                    "name": "Final Cut",
+                    "img": "/icons/finalcut.png",
+                    "description": "The video editing"
+                }
+            ]
+        }
+    ],
+    "art": [
+        {
+            "id": "music",
+            "name": "Music Projects",
+            "nameES": "Projectos musicales",
+            "projectType": "Projectos musicales",
+            "description": "",
+            "descriptionES": ""
+        },
+        {
+            "id": "art",
+            "name": "Arts",
+            "nameES": "Artes visuales",
+            "projectType": "Artes Visuales",
+            "description": "",
+            "descriptionES": ""
+        },
+        {
+            "id": "photography",
+            "name": "Macro Photography",
+            "nameES": "Fotografía Macro",
+            "projectType": "Fotografia Macro",
+            "description": "",
+            "descriptionES": ""
+        }
+    ]
+}
