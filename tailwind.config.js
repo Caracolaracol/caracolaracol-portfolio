@@ -18,22 +18,29 @@ module.exports = {
       },
     },
     colors: {
-      // NEW PALETTE
-
-      // Main Pallete
-      richblack:"#0C0A15",
-      black:"#1f1d28",
-      dark:"#1c1b22",
-      darkpurple:'#332230',
-      violet:'#312559',
+      // BACKGROUND
+      dark:"#1c1b22", // DARK
+      snow:"#F4EFF1", // LIGHT
+      // TEXT
+      platinum:"#EBE6E8", // DARK
+      raisinblack:"#292736", // LIGHT
+      // ASIDE MENU
+      night: "#110F17", // DARK
+      nightlight:"#1f1d28", // LIGHT
+      // MAIN PALLETE
       cerise: '#D94A6D',
-      ocre: '#DE7F26',
-      snow:"#F4EFF1",
-      timberwolf:'#c0a8a2',
-      
-      // Action Colors
+      violet:'#312559',
+      darkpurple:'#332230',
+      // ACTION COLORS
       violetlight:'#483681',
       ocrelight:'#935e30',
+
+      richblack:"#0C0A15",
+      black:"#1f1d28",
+      ocre: '#DE7F26',
+      timberwolf:'#c0a8a2',
+      
+      
 
 /*       // --- OLD PALLETTE ----
 

@@ -9,6 +9,7 @@ import { unified } from 'unified'
 import rehypeReact from 'rehype-react'
 import rehypeParse from 'rehype-parse'
 import { project } from '@/types/interfaces'
+import TextContent from '../TextContent'
 
 function Code({projectData}:project) {
   const language = useAtomValue(languageAtom)
@@ -47,7 +48,7 @@ function Code({projectData}:project) {
                     <div className="text-left">
                         {projectData.illustrations ? <Image alt="ilustration" width='640' height='640' src={`/images${projectData.illustrations}`} className='w-40 tablet:w-[18rem] float-right ml-3  tablet:ml-4 svg mr-4 tablet:mr-5' /> : ''}
                     </div>
-                    <p className='text-[1.1rem] font-tommyregular tracking-wider antialiased text-justify' >{language == 'EN' ? content : contentES}</p>
+                    <TextContent content={content} contentES={contentES}/>
                 </div>
                 <p className='text-[1rem] font-tommyregular font-bold tracking-wider antialiased laptop:px-[5%] desktop:px-[2vw]'>
                     {language == 'EN' ? projectData.opinion : projectData.opinionES}

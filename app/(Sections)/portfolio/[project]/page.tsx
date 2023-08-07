@@ -8,6 +8,7 @@ import Videos from '@/components/Projects/Videos'
 import Music from '@/components/Projects/Music'
 import Art from '@/components/Projects/Art'
 import MacroPhotography from '@/components/Projects/MacroPhotography'
+import { APPS, ARTS, CODING, FICTIONAL_WEBSITES, MACRO, MUSIC, REAL_WEBSITES, VIDEOS } from '@/config/proyectTypes'
 
 interface Props {
     params: {
@@ -29,25 +30,25 @@ export default async function Page({ params }: Props) {
                     </div>
                     <Title name={data.projectData.name} nameES={data.projectData.nameES} idPreviousProject={idPreviousProject} idNextProject={idNextProject}/>
                     {
-                        (data.projectType == 'fictional websites' || data.projectType == 'real websites') && <Websites projectData={data.projectData} />
+                        (data.projectType == FICTIONAL_WEBSITES || data.projectType == REAL_WEBSITES) && <Websites projectData={data.projectData} />
                     }  
                     {
-                        data.projectType == 'coding projects' && <Code projectData={data.projectData} />
+                        data.projectType == CODING && <Code projectData={data.projectData} />
                     }  
                     {
-                        data.projectType == 'apps' && <Apps projectData={data.projectData} />
+                        data.projectType == APPS && <Apps projectData={data.projectData} />
                     }
                     {
-                        data.projectType == 'Videos' && <Videos projectData={data.projectData} />
+                        data.projectType == VIDEOS && <Videos projectData={data.projectData} />
                     }
                     {
-                        data.projectType == 'Projectos musicales' && <Music projectData={data.projectData} />
+                        data.projectType == MUSIC && <Music projectData={data.projectData} />
                     }
                     {
-                        data.projectType == 'Artes Visuales' && <Art projectData={data.projectData} />
+                        data.projectType == ARTS && <Art projectData={data.projectData} />
                     }
                     {
-                        data.projectType == 'Fotografia Macro' && <MacroPhotography projectData={data.projectData} />
+                        data.projectType == MACRO && <MacroPhotography projectData={data.projectData} />
                     }
                 </div>
                 <div className=" mt-4 mb-4 desktop:mt-6 desktop:mb-6 flex mx-auto">

@@ -6,7 +6,7 @@ function TextContent({content, contentES}:any) {
     const language = useAtomValue(languageAtom)
 
   return (
-    <p className='text-[1rem] font-tommyregular tracking-wider antialiased text-justify ' >{language == 'EN' ? content : contentES}</p>
+    <p className='text-[1rem] font-tommyregular tracking-wider antialiased ' >{language == 'EN' ? content : contentES}</p>
   )
 }
 

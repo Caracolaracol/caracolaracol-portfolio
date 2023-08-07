@@ -22,9 +22,9 @@ function NavigateProjects({idPreviousProject, idNextProject}:any) {
         <div className='flex justify-end items-center grow gap-2 tablet:pb-0 '>
             <div className="w-12 min-w-12 tablet:w-16 tablet:min-w-16 min-h-10 rounded-full">
                 {atStart ? null : <Link href={`${location}/${idPreviousProject ? idPreviousProject : null}`}>
-                    <button className={`font-tommyregular tablet:text-xl flex flex-col items-center filtromorado`}>
-                        <div className='p-1 circleround bg-violet  dark:bg-violet '>
-                            <Image src={prev} alt='anterior proyecto' width={20} height={30} className={`p-[0.1rem] tablet:w-[25px] tablet:h-[25px] dark:active:brightness-50  `} />
+                    <button className={`font-tommyregular tablet:text-xl flex flex-col items-center filtromorado group`}>
+                        <div className='p-1 circleround bg-violet  dark:bg-violet group-hover:bg-violetlight'>
+                            <Image src={prev} alt='anterior proyecto' width={20} height={30} className={`p-[0.1rem] tablet:w-[25px] tablet:h-[25px] group-active:brightness-50  `} />
                         </div>
                         <p className='text-[0.65rem] tablet:text-[0.7rem] tracking-wider'>previous</p>
                     </button>
@@ -34,9 +34,9 @@ function NavigateProjects({idPreviousProject, idNextProject}:any) {
 
             <div className="w-12 min-w-12 tablet:w-16 tablet:min-w-16 min-h-10 rounded-full">
                 {atEnd ? null : <Link href={`${location}/${idNextProject}`} >
-                    <button className='font-tommyregular tablet:text-xl flex flex-col items-center filtromorado'>
-                        <div className='p-1 circleround bg-violet  dark:bg-violet '>
-                            <Image src={next} alt='siguiente' width={20} height={30} className={`p-[0.1rem] tablet:w-[25px] tablet:h-[25px] dark:active:brightness-50 `} />
+                    <button className='font-tommyregular tablet:text-xl flex flex-col items-center filtromorado group'>
+                        <div className='p-1 circleround bg-violet  dark:bg-violet group-hover:bg-violetlight'>
+                            <Image src={next} alt='siguiente' width={20} height={30} className={`p-[0.1rem] tablet:w-[25px] tablet:h-[25px] group-active:brightness-50 `} />
                         </div>
                         <p className='text-[0.65rem] tablet:text-[0.7rem] tracking-wider'>next</p>
                     </button>

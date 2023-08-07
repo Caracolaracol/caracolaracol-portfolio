@@ -56,7 +56,7 @@ const tommyBold = localFont({
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en' suppressHydrationWarning  className={`${chronoType.variable} ${tommy.variable} ${tommyLight.variable} ${tommyRegular.variable} ${tommyBold.variable} `}>
-      <body className='dark:text-snow text-black dark:bg-dark bg-snow'>
+      <body className='dark:text-platinum text-raisinblack dark:bg-dark bg-snow'>
         <Providers>
             <div className="relative min-h-screen flex flex-col justify-between" >
               <div>

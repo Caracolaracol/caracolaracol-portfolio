@@ -34,11 +34,11 @@ a {
 
 @layer components {
   .background_noise {
-    background-image: url('../public/nnnoisecerise.svg');
+    background-image: url('../public/noiselight.svg');
   }
 
   .background_noise_dark {
-    background-image: url('../public/nnnoisedark.svg');
+    background-image: url('../public/nnnoisecerise.svg');
   
   }
 

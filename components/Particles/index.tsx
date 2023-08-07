@@ -15,8 +15,10 @@ function ParticlesTS() {
         
     }, []);
     const particlesLoaded = useCallback(async (container: Container | undefined) => {
-    
+        
     }, []);
+    const themeLocal = localStorage.getItem('theme');
+    console.log(themeLocal)
 
     return (
         <div>
@@ -30,27 +32,22 @@ function ParticlesTS() {
                     interactivity: {
                         events: {
                             onClick: { enable: true, mode: "push" },
-                            onHover: {
-                                enable: true,
-                                mode: "repulse",
-                                parallax: { enable: false, force: 20, smooth: 20 }
-                            },
+                            
                             resize: true
                         },
                         modes: {
                             push: { quantity: 0.2 },
-                            repulse: { distance: 40, duration: 3 }
                         }
                     },
 
                     particles: {
-                        color: { value: "#CD7527" },
+                        color: { value:`${themeLocal == 'dark' ? "#D94A6D" :  "#DE7F26"}`  },
                         move: {
                             direction: "none",
                             enable: true,
                             outModes: "out",
                             random: false,
-                            speed: 2,
+                            speed: 1,
                             straight: false
                         },
                         number: {
@@ -83,14 +80,14 @@ function ParticlesTS() {
                             },
                             value: {
                                 min: 0,
-                                max: 0.5
+                                max: 0.8
                             }
                         },
                         shape: {
                             type: "circle"
                         },
                         size: {
-                            value: { min: .1, max: 8 }
+                            value: { min: .01, max: 5 }
                         }
 
                     }

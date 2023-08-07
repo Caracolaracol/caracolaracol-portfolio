@@ -78,7 +78,7 @@ function Page() {
 
                     <nav className="flex justify-center py-2 tablet:py-3 z-50" >
                         <Link href="/portfolio">
-                            <button  className="flex items-center justify-center gap-2 font-tommy transition-colors bg-violet text-snow hover:text-cerise dark:bg-violet  dark:hover:text-cerise dark:text-blancon rounded-lg text-2xl h-10 w-fit px-6 py-6 tablet:py-0 tablet:h-14 tablet:px-4 desktop:px-7 desktop:py-8 tablet:text-4xl desktop:text-4xl tablet:tracking-wider min-w-[14.5rem]  tablet:min-w-[20rem] laptop:min-w-[22rem] group">
+                            <button  className="flex items-center justify-center gap-2 font-tommy transition-colors bg-violet text-platinum hover:text-cerise dark:bg-violet  dark:hover:text-cerise dark:text-blancon rounded-lg text-2xl h-10 w-fit px-6 py-6 tablet:py-0 tablet:h-14 tablet:px-4 desktop:px-7 desktop:py-8 tablet:text-4xl desktop:text-4xl tablet:tracking-wider min-w-[14.5rem]  tablet:min-w-[20rem] laptop:min-w-[22rem] group">
                                 <p className="text-cerise group-hover:text-snow transition-colors">
                                     {"{"}
                                 </p>
@@ -89,7 +89,7 @@ function Page() {
                             </button>
                         </Link>
                     </nav>
-                    <footer className="flex flex-col justify-between text-center dark:text-snow mb-8 z-50">
+                    <footer className="flex flex-col justify-between text-center dark:text-platinum mb-8 z-50">
                         <ul className="flex gap-2 shrink" >
                             <li className='' onMouseEnter={handlerMouseLinks}
                                 onMouseLeave={handlerLeaveLinks} >
