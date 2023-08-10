@@ -50,7 +50,7 @@ function Websites({projectData}:project) {
             projectData != undefined ? projectData.images?.map(image => <Image src={`/images${image}`} width="640" height="360" alt='image' className='rounded-md'/>) : null
         }
     </div>
-    <div className=' min-w-full h-6'>
+    <div className='min-w-full h-6'>
     </div>
     <div className="flex flex-col   tablet:min-h-[21rem] laptop:min-h-[12rem] bg-blancod bg-opacity-40 dark:bg-negron dark:bg-opacity-90 rounded-tr-sm rounded-br-sm p-4 tablet:pb-8">
         <div key={projectData.name} className="desktop:min-h-[9rem] transitionshort laptop:px-[5%] desktop:px-[2vw] pb-4">
