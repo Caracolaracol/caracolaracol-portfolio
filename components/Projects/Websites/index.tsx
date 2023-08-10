@@ -47,7 +47,7 @@ function Websites({projectData}:project) {
     </div> */}
     <div className='flex laptop:flex-row tablet:w-[40%] justify-between gap-10'>
         {
-            projectData != undefined ? projectData.images?.map(image => <Image src={`/images${image}`} width="640" height="360" alt='image' className='rounded-md'/>) : null
+            projectData != undefined ? projectData.images?.map(image => <Image key={image} src={`/images${image}`} width="640" height="360" alt='image' className='rounded-md'/>) : null
         }
     </div>
     <div className='min-w-full h-6'>
