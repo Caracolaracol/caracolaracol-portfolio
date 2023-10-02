@@ -10,7 +10,7 @@ function Footer() {
                         </div>
                         <div className='flex gap-2'>
                             <p className='opacity-50 dark:text-blancon'>
-                                Made by Agustín Rojas | Last Updated, Jul 2023
+                                Made by Agustín Rojas | Last Updated, Sept 2023
                             </p>
                         </div>
                     </div>
