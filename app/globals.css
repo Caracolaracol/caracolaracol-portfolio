@@ -151,6 +151,23 @@ a {
       opacity: 1;
     }
   }
+  .transition-opacity-images-1  {
+    animation: transition-opacity-images 2200ms ease-out;
+  }
+  @keyframes transition-opacity-images {
+    0% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  .loaded {
+    opacity: 1;
+  }
 
 
 

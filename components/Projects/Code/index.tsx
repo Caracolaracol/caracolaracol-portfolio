@@ -10,6 +10,7 @@ import rehypeReact from 'rehype-react'
 import rehypeParse from 'rehype-parse'
 import { project } from '@/types/interfaces'
 import TextContent from '../TextContent'
+import ImagesComponent from '../ImagesComponent'
 
 function Code({projectData}:project) {
   const language = useAtomValue(languageAtom)
@@ -34,12 +35,10 @@ function Code({projectData}:project) {
 
   return (
     <>
-            <div className="border-[2px] border-spacing-2 border-verde dark:border-blancod  border-opacity-40 dark:border-opacity-10 tablet:max-w-[96%] tablet:m-auto">
-                <div className='relative pb-[125%] tablet:pb-[56.25%]'>
-                    <div key={projectData.name} className='bg-blancod dark:bg-negron absolute top-0 left-0 w-full h-full '>
-                        <Slider images={projectData.images} imagesm={projectData.imagesmobile} data={projectData.images} />
-                    </div>
-                </div>
+            <div className='mx-auto w-[97%]'>
+                {
+                    projectData != undefined ? <ImagesComponent images={projectData.images}/> : null
+                }
             </div>
             <div className=' min-w-full h-6'>
             </div>
