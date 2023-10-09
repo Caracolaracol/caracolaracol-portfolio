@@ -10,9 +10,10 @@
             "opinion": "Thanks for being here!",
             "opinionES": "Gracias por tu visita!",
             "images": [
-                "/imagecarousel/portfoliov21.jpg",
-                "/imagecarousel/portfoliomobilephotos.png",
-                "/imagecarousel/portfoliov22.jpg"
+                "/imagecarousel/portfolio01.jpg",
+                "/imagecarousel/portfolio02.jpg",
+                "/imagecarousel/portfolio03.png",
+                "/imagecarousel/portfolio04.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/portfoliov21mobile.jpg",
@@ -65,7 +66,9 @@
             "opinionES": "Grazie mille!",
             "images": [
                 "/imagecarousel/ls1.png",
-                "/imagecarousel/ls2.png"
+                "/imagecarousel/ls2.png",
+                "/imagecarousel/ls3.png",
+                "/imagecarousel/ls4.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/lsmob1.png",
@@ -105,7 +108,9 @@
             "opinionES": "Tómate la B12",
             "images": [
                 "/imagecarousel/ironplant1.png",
-                "/imagecarousel/ironplant2.png"
+                "/imagecarousel/ironplant2.png",
+                "/imagecarousel/ironplant3mobile.png",
+                "/imagecarousel/ironplant4mobile.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/ironplantmobile1.jpg",
@@ -145,8 +150,9 @@
             "opinion": "Obsidian its a software that I like very much, I really recommend you to try it!",
             "opinionES": "Obsidian es un software que me gusta mucho, te recomiendo usarlo!",
             "images": [
-                "/imagecarousel/obsidianimage1.png",
-                "/imagecarousel/obsidianimage2.png"
+                "/imagecarousel/obsidian01.png",
+                "/imagecarousel/obsidian02.png",
+                "/imagecarousel/obsidian03mobile.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/obsidianmobile2.jpg",
@@ -185,8 +191,9 @@
             "opinion": "Proud of it!",
             "opinionES": "Nada como tu primer proyecto de página web.",
             "images": [
-                "/imagecarousel/firstsite1.jpg",
-                "/imagecarousel/firstsite2.jpg"
+                "/imagecarousel/firstsite01.jpg",
+                "/imagecarousel/firstsite02.jpg",
+                "/imagecarousel/firstsite03mobile.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/firstsitemobile1.jpg",
@@ -316,13 +323,15 @@
             "name": "Torchnd",
             "nameES": "Torchnd",
             "projectType": "apps",
-            "description": "",
+            "description": "Torchnd is basically a booking app, but with fictional places and hosts. For the development of the app I used expo and it works on Android and iOS. This booking app has been gamifing with the creative and fast help of ChatGPT and LeonardoAI.",
             "descriptionES": "",
             "opinion": "",
             "opinionES": "",
             "images": [
-                "/imagecarousel/portfoliov21.jpg",
-                "/imagecarousel/portfoliov22.jpg"
+                "/imagecarousel/torchnd01bigmobile.png",
+                "/imagecarousel/torchnd05bigmobile.png",
+                "/imagecarousel/torchnd03bigmobile.png",
+                "/imagecarousel/torchnd04bigmobile.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/portfoliov21mobile.jpg",

@@ -40,8 +40,8 @@ function ImagesComponent({ images }: { images: string[] | undefined }) {
                                 <span className="w-3 h-3 rounded-full bg-ocre"></span>
                             </div>
                         )}
-                        <div className=" rounded-b-lg">
-                            {images && <Image alt={images[indexImage]} src={`/images${images[indexImage]}`} width={1920} height={1280} className={`rounded-b-lg object-contain`} />}
+                        <div className="rounded-b-lg" >
+                            {images && <Image alt={images[indexImage]} src={`/images${images[indexImage]}`} width={1920} height={1280} className={`rounded-b-lg object-cover aspect-video`} />}
                         </div>
                     </div>
                 </div>
