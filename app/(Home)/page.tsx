@@ -133,7 +133,7 @@ function Page() {
 
                                 <a
                                     className={styles}
-                                    href="https://drive.google.com/file/d/1leg_c4dXK_TOjvJ2J35yD0Hf5FyeqX8f/view?usp=sharing"
+                                    href="https://docs.google.com/document/d/1p8NlNx_SESv5QeNiyZMEQTllUpHzBwEa34wesV15dyI/edit?usp=sharing"
                                     target="_blank"
 
                                 >
