@@ -1,11 +1,10 @@
 'use client'
 import Image from 'next/image';
 import React, { useState, useEffect, useRef } from 'react';
-import ciervovolante from 'public/images/ciervovolante.png'
+import ciervovolante from '@/public/images/ciervovolante.png'
 import { useDrag } from "@/hooks/useDrag";
 
 function Darwin() {
-
     const draggableRef = useRef(null);
   const { position, handleMouseDown }:any = useDrag({
     ref: draggableRef

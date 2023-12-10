@@ -6,10 +6,9 @@ import Image from 'next/image'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
 import { hideSideMenuAnimationAtom, isShowingSideMenuAtom, languageAtom, locationAtom, showSideMenuAtom } from '@/app/Store'
 
-import flor from 'public/images/flor1.png'
+import flor from '@/public/images/flor1.png'
 import { usePathname } from 'next/navigation'
 import Darwin from '@/components/Insect/Darwin'
-
 
 export default function Page() {
   const language = useAtomValue(languageAtom)

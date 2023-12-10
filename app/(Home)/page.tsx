@@ -4,8 +4,8 @@ import Link from 'next/link'
 import ParticlesTS from '@/components/Particles'
 
 import Image from 'next/image'
-import myself1 from 'public/images/yo.jpg'
-import myself2 from 'public/images/yo2.jpg'
+import myself1 from '@/public/images/yo.jpg'
+import myself2 from '@/public/images/yo2.jpg'
 import LoaderScreen from '@/components/LoaderScreen'
 
 function Page() {
