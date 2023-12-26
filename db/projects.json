@@ -65,10 +65,10 @@
             "opinion": "Grazie mille!",
             "opinionES": "Grazie mille!",
             "images": [
-                "/imagecarousel/ls1.png",
-                "/imagecarousel/ls2.png",
-                "/imagecarousel/ls3.png",
-                "/imagecarousel/ls4.png"
+                "/project-images/ls1.png",
+                "/project-images/ls2.png",
+                "/project-images/ls3mobile.png",
+                "/project-images/ls4mobile.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/lsmob1.png",
@@ -152,7 +152,8 @@
             "images": [
                 "/imagecarousel/obsidian01.png",
                 "/imagecarousel/obsidian02.png",
-                "/imagecarousel/obsidian03mobile.png"
+                "/imagecarousel/obsidian03mobile.png",
+                "/imagecarousel/obsidianmobile1.png"
             ],
             "imagesmobile": [
                 "/imagecarousel/obsidianmobile2.jpg",
@@ -193,7 +194,8 @@
             "images": [
                 "/imagecarousel/firstsite01.jpg",
                 "/imagecarousel/firstsite02.jpg",
-                "/imagecarousel/firstsite03mobile.png"
+                "/imagecarousel/firstsite03mobile.png",
+                "/imagecarousel/firstsitemobile1.jpg"
             ],
             "imagesmobile": [
                 "/imagecarousel/firstsitemobile1.jpg",

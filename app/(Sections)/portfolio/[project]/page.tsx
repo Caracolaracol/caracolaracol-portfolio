@@ -9,7 +9,9 @@ import Music from '@/components/Projects/Music'
 import Art from '@/components/Projects/Art'
 import MacroPhotography from '@/components/Projects/MacroPhotography'
 import { APPS, ARTS, CODING, FICTIONAL_WEBSITES, MACRO, MUSIC, REAL_WEBSITES, VIDEOS } from '@/config/proyectTypes'
-
+import fs from 'node:fs/promises'
+import {compile} from '@mdx-js/mdx'
+import remarkFrontmatter from 'remark-frontmatter'
 interface Props {
     params: {
         project: string
@@ -20,7 +22,6 @@ interface Props {
 export default async function Page({ params }: Props) {
     const data = await getProjects(params)
     const { idPreviousProject, idNextProject } = await pageControl(data.previousProject, data.nextProject, data.lastArrayIndex, data.indexOfProject)
-
 
     return (
         <>

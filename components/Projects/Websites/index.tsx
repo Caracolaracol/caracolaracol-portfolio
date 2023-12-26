@@ -46,10 +46,13 @@ function Websites({ projectData }: project) {
             </div>
             <div className="flex flex-col tablet:min-h-[21rem] laptop:min-h-[12rem] bg-blancod bg-opacity-40 dark:bg-negron dark:bg-opacity-90 rounded-tr-sm rounded-br-sm p-4 tablet:pb-8">
                 <div key={projectData.name} className="desktop:min-h-[9rem] transitionshort laptop:px-[5%] desktop:px-[2vw] pb-4">
-                    <div className="text-left">
-                        {projectData.illustrations ? <Image alt="ilustration" width='640' height='640' src={`/images${projectData.illustrations}`} className='w-40 tablet:w-[18rem] float-right ml-3  tablet:ml-4 svg mr-4 tablet:mr-5' /> : ''}
+                    <div className="hidden tablet:block desktop:text-left">
+                        {projectData.illustrations ? <Image alt="ilustration" width='640' height='640' src={`/images${projectData.illustrations}`} className='w-[60vw] m-auto tablet:w-[18rem] tablet:float-right  laptop:ml-4 svg laptop:mr-5' /> : ''}
                     </div>
                     <TextContent content={content} contentES={contentES} />
+                    <div className="desktop:text-left tablet:hidden">
+                        {projectData.illustrations ? <Image alt="ilustration" width='640' height='640' src={`/images${projectData.illustrations}`} className='w-[60vw] m-auto tablet:w-[18rem] tablet:float-right  laptop:ml-4 svg laptop:mr-5' /> : ''}
+                    </div>
                 </div>
                 <p className='text-[1rem] font-tommyregular font-bold tracking-wider antialiased laptop:px-[5%] desktop:px-[2vw]'>
                     {language == 'EN' ? projectData.opinion : projectData.opinionES}

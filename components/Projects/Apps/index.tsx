@@ -55,7 +55,7 @@ function Apps({projectData}: project) {
               </p>
               <div className="border-b-[1px] border-verde dark:border-blancod  border-opacity-40 dark:border-opacity-10  mt-4 mb-4 desktop:mt-6 desktop:mb-6 w-[80%] flex mx-auto">
               </div>
-              <TechAndLinks isCoding={true} lang={language} tech={projectData.technologies ? projectData.technologies : []} github={projectData.github} link={projectData.link} />
+              <TechAndLinks isCoding={true} lang={language} tech={projectData.technologies} github={projectData.github} link={projectData.link} />
           </div>
       </>
   )

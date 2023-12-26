@@ -18,7 +18,7 @@ const styles = 'font-tommyregular text-[1.2rem] text-ocre hover:text-timberwolf 
                             </h2>
                             <div key='laptop' className='hidden tablet:flex flex-wrap gap-3 transitionshort drop-shadow-md'>
                                 {
-                                    tech.map((s:any) => (
+                                    tech && tech.map((s:any) => (
                                         <div key={s.idtech}>
                                             <Tooltip.Provider delayDuration={40} skipDelayDuration={30}>
                                                 <Tooltip.Root>

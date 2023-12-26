@@ -31,7 +31,11 @@ function ImagesComponent({ images }: { images: string[] | undefined }) {
     useEffect(() => {
         if (images) {
             const interval = setInterval(() => {
-                setIndexNextImage(indexImage + 1)
+                if ((images.length - 1) == indexImage){
+                    setIndexNextImage(0)
+                } else {
+                    setIndexNextImage(indexImage + 1)
+                }
                 setImageLoaded(true)
                 setTimeout(() => {
                     setImageLoaded(false);
@@ -76,8 +80,8 @@ function ImagesComponent({ images }: { images: string[] | undefined }) {
                 <div className='laptop:h-[100%] laptop:mx-0 w-[100%] laptop:w-[12.7%] '>
                     <div className='grid grid-cols-4 laptop:grid-cols-1 place-content-around laptop:place-content-center h-full'>
                         {
-                            images?.map((image,idx) => (
-                                <button onClick={() => handleChangeImage(idx)} onMouseEnter={() => handleChangeImage(idx)} key={image} className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/25 overflow-hidden hover:brightness-125 block'>
+                            images && images?.map((image,idx) => (
+                                <button onClick={() => handleChangeImage(idx)} onMouseEnter={() => handleChangeImage(idx)} key={image} className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/5 overflow-hidden hover:brightness-125 block'>
                                     <Image alt='imgs' src={`/images${image}`} width={1280} height={720} className='object-cover min-h-full shadow-lg' />
                                 </button>
                             ))
@@ -85,13 +89,13 @@ function ImagesComponent({ images }: { images: string[] | undefined }) {
                         {
                             (images && images.length == 2) && (
                                 <>
-                                    <span className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/25 overflow-hidden block'></span>
-                                    <span className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/25 overflow-hidden block'></span>
+                                    <span className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/5 overflow-hidden block'></span>
+                                    <span className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/5 overflow-hidden block'></span>
                                 </>
                             )
                         }
                         {
-                            (images && images.length == 3) && <span className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/25 overflow-hidden block'></span>
+                            (images && images.length == 3) && <span className='mx-[0.2em] laptop:mx-0 my-1 aspect-square rounded-md bg-violet/5 overflow-hidden block'></span>
                         }
                     </div>
                 </div>

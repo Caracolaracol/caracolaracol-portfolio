@@ -1,9 +1,16 @@
+
 import { project } from '@/types/interfaces'
 import React from 'react'
+import Content from '@/content/portfolio/MusicProyects.mdx'
+
 
 function Music({projectData}: project) {
+
   return (
-    <div>Soon...</div>
+    <div>
+      <Content />
+      
+    </div>
   )
 }
 
